@@ -1,0 +1,4 @@
+SELECT *
+FROM cars
+ORDER BY trips_completed DESC
+LIMIT 2;

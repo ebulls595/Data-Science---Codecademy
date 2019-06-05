@@ -1,0 +1,6 @@
+SELECT medium, COUNT(*)
+FROM met
+WHERE medium LIKE '%gold%'
+   OR medium LIKE '%silver%'
+GROUP BY 1
+ORDER BY 2 DESC;
